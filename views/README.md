@@ -10,3 +10,9 @@
 ### Branch lesson_01
 * create login page
 * create authen route
+
+
+###branch lesson_02
+*create passport setup
+*modify /auth/google
+*move google secret key to another folder

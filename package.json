@@ -14,6 +14,7 @@
     "express": "^4.17.1",
     "nodemon": "^2.0.2",
     "passport": "^0.4.1",
-    "passport-google-auth": "^1.0.2"
+    "passport-google-auth": "^1.0.2",
+    "passport-google-oauth": "^2.0.0"
   }
 }

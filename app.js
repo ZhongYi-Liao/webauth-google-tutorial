@@ -1,7 +1,8 @@
 const express = require("express");
 const path = require("path");
 const app = express();
-const authRoute = require("./routes/auth-routers");
+const authRoutes = require("./routes/auth-routes");
+const passportSetup = require("./config/passport-setup");
 app.set("view engine","ejs");
 
 //======Middleware==========
@@ -16,7 +17,7 @@ app.get("/",(req,res)=>{
     res.render("home.ejs");
 });
 
-const PORT =3000;
+const PORT =3000; 
 
 app.listen(PORT),()=>{
 console.log("server is running at" +PORT);
